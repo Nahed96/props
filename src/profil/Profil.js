@@ -8,6 +8,7 @@ const Profil=(props)=>{
           <h2>{props.bio}</h2>
           <h3>{props.profession}</h3>  
           {props.children}
+        <button onClick={()=>props.handlename(props.name)}>click</button>
         </div>
     )
 }
